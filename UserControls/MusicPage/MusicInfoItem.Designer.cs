@@ -54,7 +54,7 @@
             // lb_auther_singer
             // 
             this.lb_auther_singer.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_auther_singer.Location = new System.Drawing.Point(110, 44);
+            this.lb_auther_singer.Location = new System.Drawing.Point(110, 49);
             this.lb_auther_singer.Name = "lb_auther_singer";
             this.lb_auther_singer.Size = new System.Drawing.Size(139, 55);
             this.lb_auther_singer.TabIndex = 4;
@@ -64,12 +64,12 @@
             // 
             // lb_Name
             // 
-            this.lb_Name.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Name.Location = new System.Drawing.Point(109, 11);
+            this.lb_Name.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Name.Location = new System.Drawing.Point(114, 9);
             this.lb_Name.Name = "lb_Name";
-            this.lb_Name.Size = new System.Drawing.Size(278, 27);
+            this.lb_Name.Size = new System.Drawing.Size(257, 48);
             this.lb_Name.TabIndex = 3;
-            this.lb_Name.Text = "Only You";
+            this.lb_Name.Text = "Only Youyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy";
             this.lb_Name.Click += new System.EventHandler(this.MusicInfoItem_Click);
             // 
             // btn_addToPlaylist

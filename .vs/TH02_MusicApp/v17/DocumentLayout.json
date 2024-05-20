@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\musicpage\\musicuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\musicpage\\musicuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\musicpage\\musicuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\musicpage\\musicuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\songdetail\\songdetailuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\songdetail\\songdetailuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\musicpage\\musicinfoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\musicpage\\musicinfoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\songdetail\\songdetailuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\songdetail\\songdetailuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|F:\\HK2-Nam3\\C#\\TH02_MusicApp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|F:\\HK2-Nam3\\C#\\TH02_MusicApp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\shared_preferences\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:shared_preferences\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\model\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:model\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\musicpage\\musicinfoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\musicpage\\musicinfoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|F:\\HK2-Nam3\\C#\\TH02_MusicApp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,36 +54,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 183,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MusicInfoItem.cs [Design]",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicInfoItem.cs",
+              "RelativeDocumentMoniker": "UserControls\\MusicPage\\MusicInfoItem.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicInfoItem.cs [Design]",
+              "RelativeToolTip": "UserControls\\MusicPage\\MusicInfoItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:54:05.587Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataStore.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Shared_Preferences\\DataStore.cs",
+              "RelativeDocumentMoniker": "Shared_Preferences\\DataStore.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Shared_Preferences\\DataStore.cs",
+              "RelativeToolTip": "Shared_Preferences\\DataStore.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:34:29.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Song.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Model\\Song.cs",
+              "RelativeDocumentMoniker": "Model\\Song.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Model\\Song.cs",
+              "RelativeToolTip": "Model\\Song.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:34:21.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SongDetailUC.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\SongDetail\\SongDetailUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\SongDetail\\SongDetailUC.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\SongDetail\\SongDetailUC.cs",
+              "RelativeToolTip": "UserControls\\SongDetail\\SongDetailUC.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:09:51.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SongDetailUC.cs [Design]",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\SongDetail\\SongDetailUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\SongDetail\\SongDetailUC.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\SongDetail\\SongDetailUC.cs [Design]",
+              "RelativeToolTip": "UserControls\\SongDetail\\SongDetailUC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:09:49.75Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MusicInfoItem.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicInfoItem.cs",
+              "RelativeDocumentMoniker": "UserControls\\MusicPage\\MusicInfoItem.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicInfoItem.cs",
+              "RelativeToolTip": "UserControls\\MusicPage\\MusicInfoItem.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAApwG4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:03:51.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MusicUC.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\MusicPage\\MusicUC.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs*",
+              "RelativeToolTip": "UserControls\\MusicPage\\MusicUC.cs*",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAvwF8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:01:43.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MusicUC.cs [Design]",
               "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs",
               "RelativeDocumentMoniker": "UserControls\\MusicPage\\MusicUC.cs",
-              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs [Design]",
-              "RelativeToolTip": "UserControls\\MusicPage\\MusicUC.cs [Design]",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs [Design]*",
+              "RelativeToolTip": "UserControls\\MusicPage\\MusicUC.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T05:23:36.038Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "HomePage.cs",
               "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
               "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs",
               "RelativeToolTip": "HomePage.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAswFcAAAAtAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAowEEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T04:47:44.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomePage.cs [Design]",
               "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
@@ -67,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -75,8 +192,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T03:12:13.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T03:12:13.676Z"
             }
           ]
         }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MusicUC));
             this.tb_search = new System.Windows.Forms.TextBox();
             this.pn_categories = new System.Windows.Forms.Panel();
             this.btn_cate_international = new System.Windows.Forms.Button();
@@ -45,13 +46,15 @@
             // 
             this.tb_search.BackColor = System.Drawing.Color.LightGray;
             this.tb_search.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tb_search.Dock = System.Windows.Forms.DockStyle.Left;
-            this.tb_search.Location = new System.Drawing.Point(0, 0);
-            this.tb_search.Multiline = true;
+            this.tb_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_search.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.tb_search.Location = new System.Drawing.Point(16, 4);
             this.tb_search.Name = "tb_search";
-            this.tb_search.Size = new System.Drawing.Size(398, 41);
+            this.tb_search.Size = new System.Drawing.Size(367, 31);
             this.tb_search.TabIndex = 0;
             this.tb_search.Tag = "";
+            this.tb_search.Text = "ca";
+            this.tb_search.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_search_KeyDown);
             // 
             // pn_categories
             // 
@@ -72,6 +75,7 @@
             this.btn_cate_international.TabIndex = 2;
             this.btn_cate_international.Text = "International";
             this.btn_cate_international.UseVisualStyleBackColor = true;
+            this.btn_cate_international.Click += new System.EventHandler(this.btn_cate_international_Click);
             // 
             // btn_cate_vietnam
             // 
@@ -81,6 +85,7 @@
             this.btn_cate_vietnam.TabIndex = 1;
             this.btn_cate_vietnam.Text = "VietNam";
             this.btn_cate_vietnam.UseVisualStyleBackColor = true;
+            this.btn_cate_vietnam.Click += new System.EventHandler(this.btn_cate_vietnam_Click);
             // 
             // btn_cate_all
             // 
@@ -90,6 +95,7 @@
             this.btn_cate_all.TabIndex = 0;
             this.btn_cate_all.Text = "All";
             this.btn_cate_all.UseVisualStyleBackColor = true;
+            this.btn_cate_all.Click += new System.EventHandler(this.btn_cate_all_Click);
             // 
             // pn_search
             // 
@@ -103,19 +109,21 @@
             // pb_search
             // 
             this.pb_search.BackColor = System.Drawing.Color.LightGray;
-            this.pb_search.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pb_search.Location = new System.Drawing.Point(398, 0);
+            this.pb_search.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_search.BackgroundImage")));
+            this.pb_search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pb_search.Location = new System.Drawing.Point(389, 0);
             this.pb_search.Name = "pb_search";
             this.pb_search.Size = new System.Drawing.Size(52, 41);
             this.pb_search.TabIndex = 1;
             this.pb_search.TabStop = false;
+            this.pb_search.Click += new System.EventHandler(this.pb_search_Click);
             // 
             // fpn_musics
             // 
             this.fpn_musics.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.fpn_musics.Location = new System.Drawing.Point(0, 18);
+            this.fpn_musics.Location = new System.Drawing.Point(0, 121);
             this.fpn_musics.Name = "fpn_musics";
-            this.fpn_musics.Size = new System.Drawing.Size(450, 518);
+            this.fpn_musics.Size = new System.Drawing.Size(450, 415);
             this.fpn_musics.TabIndex = 7;
             // 
             // MusicUC

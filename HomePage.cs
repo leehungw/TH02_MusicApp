@@ -54,25 +54,10 @@ namespace TH02_MusicApp
         private void MusicTab_Click(object sender, EventArgs e)
         {
             pn_UC.Controls.Clear();
-            FlowLayoutPanel flowLayoutPanel = new FlowLayoutPanel();
-            flowLayoutPanel.Dock = DockStyle.Fill;
-            flowLayoutPanel.AutoScroll = false;
-            flowLayoutPanel.HorizontalScroll.Maximum = 0;
-            flowLayoutPanel.VerticalScroll.Visible = false;
-            flowLayoutPanel.AutoScroll = true;
-            pn_UC.Controls.Add(flowLayoutPanel);
-
-            List<Song> songs = DataStore.Songs;
-            foreach (Song song in songs) { 
-                MusicInfoItem musicInfoItem = new MusicInfoItem();
-                musicInfoItem.SetMusicInfo(song, true, true, true, true, false);
-                musicInfoItem.PlayButtonClick += MusicBlock_PlayButtonClick;
-                musicInfoItem.MusicItemClick += MusicItem_Click;
-                flowLayoutPanel.Controls.Add(musicInfoItem);
-
-                if (song.FileUrl == MusicPlayerManager.Instance._currentSongPath)
-                    MusicPlayerManager.Instance._lastPlayedMusic = musicInfoItem;
-            }
+            MusicUC musicUC = new MusicUC();
+            musicUC.Dock = DockStyle.Fill;
+            musicUC.MusicItem_Click += MusicItem_Click;
+            pn_UC.Controls.Add(musicUC);
         }
         private void MusicItem_Click(object sender, EventArgs e)
         {
@@ -86,12 +71,6 @@ namespace TH02_MusicApp
         private void SongDetail_BackButton_Click(object sender, EventArgs e)
         {
             pn_UC.Controls[0].Visible = true;
-        }
-
-        public void MusicBlock_PlayButtonClick(object sender, EventArgs e)
-        {
-            MusicInfoItem musicInfoItem = (MusicInfoItem)sender;
-            MusicPlayerManager.Instance.UpdateLastPlayedMusic(musicInfoItem);
         }
 
         private void btnPlaycrossfade_Click(object sender, EventArgs e)
