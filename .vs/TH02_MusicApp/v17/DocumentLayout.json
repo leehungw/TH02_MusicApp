@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\usercontrols\\musicpage\\musicuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:usercontrols\\musicpage\\musicuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|f:\\hk2-nam3\\c#\\th02_musicapp\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|F:\\HK2-Nam3\\C#\\TH02_MusicApp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDA7003-1DBE-45FF-AD3A-4639BD5AC483}|TH02_MusicApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicUC.cs [Design]",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs",
+              "RelativeDocumentMoniker": "UserControls\\MusicPage\\MusicUC.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\UserControls\\MusicPage\\MusicUC.cs [Design]",
+              "RelativeToolTip": "UserControls\\MusicPage\\MusicUC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T05:23:36.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs",
+              "RelativeDocumentMoniker": "HomePage.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs",
+              "RelativeToolTip": "HomePage.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAswFcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:47:44.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.cs [Design]",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs",
+              "RelativeDocumentMoniker": "HomePage.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\HomePage.cs [Design]",
+              "RelativeToolTip": "HomePage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:47:43.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\HK2-Nam3\\C#\\TH02_MusicApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T03:12:13.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
