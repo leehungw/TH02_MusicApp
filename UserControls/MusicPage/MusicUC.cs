@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TH02_MusicApp.Model;
+using TH02_MusicApp.Repository;
 using TH02_MusicApp.Shared_Preferences;
 
 namespace TH02_MusicApp.UserControls.MusicPage
@@ -43,7 +44,10 @@ namespace TH02_MusicApp.UserControls.MusicPage
                     fpn_musics.Controls.Add(musicInfoItem);
 
                     if (song.FileUrl == MusicPlayerManager.Instance._currentSongPath)
+                    {
                         MusicPlayerManager.Instance._lastPlayedMusic = musicInfoItem;
+                        musicInfoItem.btn_play.BackgroundImage = Properties.Resources.is_playing_icon;
+                    }
                 }
             }
         }
@@ -67,8 +71,9 @@ namespace TH02_MusicApp.UserControls.MusicPage
             }
             else
             {
-                string searchValue = tb_search.Text.ToLower();
-                List<Song> songs = DataStore.Songs.Where(s => (s.Name.ToLower().Contains(searchValue) || s.Author.ToLower().Contains(searchValue))).ToList();
+                string searchValue = tb_search.Text.ToLower().RemoveDiacritics();
+                List<Song> songs = DataStore.Songs.Where(s => (s.Name.ToLower().RemoveDiacritics().Contains(searchValue) 
+                || s.Author.ToLower().RemoveDiacritics().Contains(searchValue))).ToList();
                 ReloadFlowPane(songs);
             }
         }

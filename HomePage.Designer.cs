@@ -82,6 +82,7 @@
             // 
             // pn_bottomNavigationbar
             // 
+            this.pn_bottomNavigationbar.BackColor = System.Drawing.Color.SlateBlue;
             this.pn_bottomNavigationbar.Controls.Add(this.pn_favourite);
             this.pn_bottomNavigationbar.Controls.Add(this.pn_recents);
             this.pn_bottomNavigationbar.Controls.Add(this.pn_playlist);
@@ -94,16 +95,19 @@
             // 
             // pn_favourite
             // 
-            this.pn_favourite.BackColor = System.Drawing.Color.Transparent;
+            this.pn_favourite.BackColor = System.Drawing.Color.MediumPurple;
             this.pn_favourite.Controls.Add(this.pb_favourite);
             this.pn_favourite.Controls.Add(this.lb_favourite);
             this.pn_favourite.Location = new System.Drawing.Point(360, 3);
             this.pn_favourite.Name = "pn_favourite";
             this.pn_favourite.Size = new System.Drawing.Size(90, 74);
             this.pn_favourite.TabIndex = 0;
+            this.pn_favourite.Click += new System.EventHandler(this.PlaylistTab_Click);
             // 
             // pb_favourite
             // 
+            this.pb_favourite.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_favourite.BackgroundImage")));
+            this.pb_favourite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pb_favourite.Location = new System.Drawing.Point(17, 5);
             this.pb_favourite.Name = "pb_favourite";
             this.pb_favourite.Size = new System.Drawing.Size(56, 46);
@@ -114,24 +118,29 @@
             // lb_favourite
             // 
             this.lb_favourite.AutoSize = true;
-            this.lb_favourite.Location = new System.Drawing.Point(26, 54);
+            this.lb_favourite.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_favourite.Location = new System.Drawing.Point(17, 54);
             this.lb_favourite.Name = "lb_favourite";
-            this.lb_favourite.Size = new System.Drawing.Size(42, 16);
+            this.lb_favourite.Size = new System.Drawing.Size(53, 16);
             this.lb_favourite.TabIndex = 0;
-            this.lb_favourite.Text = "Music";
+            this.lb_favourite.Text = "Playlist";
+            this.lb_favourite.Click += new System.EventHandler(this.PlaylistTab_Click);
             // 
             // pn_recents
             // 
-            this.pn_recents.BackColor = System.Drawing.Color.Transparent;
+            this.pn_recents.BackColor = System.Drawing.Color.MediumPurple;
             this.pn_recents.Controls.Add(this.pb_recents);
             this.pn_recents.Controls.Add(this.ln_recents);
             this.pn_recents.Location = new System.Drawing.Point(241, 3);
             this.pn_recents.Name = "pn_recents";
             this.pn_recents.Size = new System.Drawing.Size(90, 74);
             this.pn_recents.TabIndex = 0;
+            this.pn_recents.Click += new System.EventHandler(this.LoveTab_Click);
             // 
             // pb_recents
             // 
+            this.pb_recents.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_recents.BackgroundImage")));
+            this.pb_recents.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pb_recents.Location = new System.Drawing.Point(17, 5);
             this.pb_recents.Name = "pb_recents";
             this.pb_recents.Size = new System.Drawing.Size(56, 46);
@@ -142,24 +151,29 @@
             // ln_recents
             // 
             this.ln_recents.AutoSize = true;
-            this.ln_recents.Location = new System.Drawing.Point(26, 54);
+            this.ln_recents.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ln_recents.Location = new System.Drawing.Point(24, 54);
             this.ln_recents.Name = "ln_recents";
-            this.ln_recents.Size = new System.Drawing.Size(42, 16);
+            this.ln_recents.Size = new System.Drawing.Size(38, 16);
             this.ln_recents.TabIndex = 0;
-            this.ln_recents.Text = "Music";
+            this.ln_recents.Text = "Love";
+            this.ln_recents.Click += new System.EventHandler(this.LoveTab_Click);
             // 
             // pn_playlist
             // 
-            this.pn_playlist.BackColor = System.Drawing.Color.Transparent;
+            this.pn_playlist.BackColor = System.Drawing.Color.MediumPurple;
             this.pn_playlist.Controls.Add(this.pb_playlist);
             this.pn_playlist.Controls.Add(this.lb_playlist);
             this.pn_playlist.Location = new System.Drawing.Point(120, 3);
             this.pn_playlist.Name = "pn_playlist";
             this.pn_playlist.Size = new System.Drawing.Size(90, 74);
             this.pn_playlist.TabIndex = 0;
+            this.pn_playlist.Click += new System.EventHandler(this.MusicTab_Click);
             // 
             // pb_playlist
             // 
+            this.pb_playlist.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_playlist.BackgroundImage")));
+            this.pb_playlist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pb_playlist.Location = new System.Drawing.Point(17, 5);
             this.pb_playlist.Name = "pb_playlist";
             this.pb_playlist.Size = new System.Drawing.Size(56, 46);
@@ -170,24 +184,29 @@
             // lb_playlist
             // 
             this.lb_playlist.AutoSize = true;
-            this.lb_playlist.Location = new System.Drawing.Point(19, 54);
+            this.lb_playlist.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_playlist.Location = new System.Drawing.Point(23, 54);
             this.lb_playlist.Name = "lb_playlist";
-            this.lb_playlist.Size = new System.Drawing.Size(50, 16);
+            this.lb_playlist.Size = new System.Drawing.Size(43, 16);
             this.lb_playlist.TabIndex = 0;
-            this.lb_playlist.Text = "Playlist";
+            this.lb_playlist.Text = "Music";
+            this.lb_playlist.Click += new System.EventHandler(this.MusicTab_Click);
             // 
             // pn_tabMusic
             // 
-            this.pn_tabMusic.BackColor = System.Drawing.Color.Transparent;
+            this.pn_tabMusic.BackColor = System.Drawing.Color.MediumPurple;
             this.pn_tabMusic.Controls.Add(this.pb_tabMusic);
             this.pn_tabMusic.Controls.Add(this.lb_tabMusic);
             this.pn_tabMusic.Location = new System.Drawing.Point(0, 3);
             this.pn_tabMusic.Name = "pn_tabMusic";
             this.pn_tabMusic.Size = new System.Drawing.Size(90, 74);
             this.pn_tabMusic.TabIndex = 0;
+            this.pn_tabMusic.Click += new System.EventHandler(this.HomeTab_Click);
             // 
             // pb_tabMusic
             // 
+            this.pb_tabMusic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_tabMusic.BackgroundImage")));
+            this.pb_tabMusic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pb_tabMusic.Location = new System.Drawing.Point(17, 5);
             this.pb_tabMusic.Name = "pb_tabMusic";
             this.pb_tabMusic.Size = new System.Drawing.Size(56, 46);
@@ -198,11 +217,13 @@
             // lb_tabMusic
             // 
             this.lb_tabMusic.AutoSize = true;
-            this.lb_tabMusic.Location = new System.Drawing.Point(25, 54);
+            this.lb_tabMusic.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_tabMusic.Location = new System.Drawing.Point(22, 54);
             this.lb_tabMusic.Name = "lb_tabMusic";
-            this.lb_tabMusic.Size = new System.Drawing.Size(42, 16);
+            this.lb_tabMusic.Size = new System.Drawing.Size(43, 16);
             this.lb_tabMusic.TabIndex = 0;
-            this.lb_tabMusic.Text = "Music";
+            this.lb_tabMusic.Text = "Home";
+            this.lb_tabMusic.Click += new System.EventHandler(this.HomeTab_Click);
             // 
             // pn_UC
             // 

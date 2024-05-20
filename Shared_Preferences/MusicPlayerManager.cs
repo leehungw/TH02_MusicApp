@@ -25,17 +25,19 @@ namespace TH02_MusicApp.Shared_Preferences
 
         public void UpdateLastPlayedMusic(MusicInfoItem newMusicInfoBar)
         {
+            // if there is a song playing,
+            // update the icon of the last played MusicInfoBar
             if (_lastPlayedMusic != null)
             {
-                _lastPlayedMusic._song.IsPlaying = false;
                 _lastPlayedMusic.UpdatePlayButtonImage();
             }
 
-            newMusicInfoBar._song.IsPlaying = true;
+            // if there is no song playing 
             newMusicInfoBar.UpdatePlayButtonImage();
             _lastPlayedMusic = newMusicInfoBar;
         }
 
+        // method to play or pause a song using NAudio
         public void PlayOrPause(string songPath)
         {
             // case 1: click play on the song is playing

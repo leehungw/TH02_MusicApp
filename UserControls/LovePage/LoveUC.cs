@@ -18,7 +18,13 @@ namespace TH02_MusicApp.UserControls.LovePage
         public LoveUC()
         {
             InitializeComponent();
+            fpn_loveSongs.AutoScroll = false;
+            fpn_loveSongs.HorizontalScroll.Maximum = 0;
+            fpn_loveSongs.VerticalScroll.Visible = false;
+            fpn_loveSongs.AutoScroll = true;
+            LoadLovedSongs();
         }
+
         private void LoadLovedSongs()
         {
             fpn_loveSongs.Controls.Clear();
@@ -29,8 +35,19 @@ namespace TH02_MusicApp.UserControls.LovePage
             {
                 MusicInfoItem musicInfoItem = new MusicInfoItem();
                 musicInfoItem.SetMusicInfo(song, false, false, true, true, false);
+                musicInfoItem.MusicItemClick += MusicItemClick;
+                if (song.FileUrl == MusicPlayerManager.Instance._currentSongPath)
+                {
+                    MusicPlayerManager.Instance._lastPlayedMusic = musicInfoItem;
+                    musicInfoItem.btn_play.BackgroundImage = Properties.Resources.is_playing_icon;
+                }
                 fpn_loveSongs.Controls.Add(musicInfoItem);
             }
+        }
+        public event EventHandler MusicItem_Click;
+        public void MusicItemClick(object sender, EventArgs e)
+        {
+            MusicItem_Click(sender, e);
         }
     }
 }

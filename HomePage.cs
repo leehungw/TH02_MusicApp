@@ -29,6 +29,7 @@ namespace TH02_MusicApp
         {
             PlaylistUC playlistUC = new PlaylistUC();
             playlistUC.Dock = DockStyle.Fill;
+            playlistUC.MusicItem_Click += MusicItem_Click;
             pn_UC.Controls.Clear();
             pn_UC.Controls.Add(playlistUC);
         }
@@ -47,6 +48,7 @@ namespace TH02_MusicApp
         {
             pn_UC.Controls.Clear();
             HomePageUC home = new HomePageUC();
+            home.MusicItem_Click += MusicItem_Click;
             home.Dock = DockStyle.Fill;
             pn_UC.Controls.Add(home);
         }
@@ -82,6 +84,7 @@ namespace TH02_MusicApp
         {
             LoveUC loveUC = new LoveUC();
             loveUC.Dock = DockStyle.Fill;
+            loveUC.MusicItem_Click += MusicItem_Click;
             pn_UC.Controls.Clear();
             pn_UC.Controls.Add(loveUC);
         }

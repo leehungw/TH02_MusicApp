@@ -13,6 +13,7 @@ namespace TH02_MusicApp.UserControls.SongDetail
 {
     public partial class CommentItem : UserControl
     {
+        Comment comment;
         public CommentItem()
         {
             InitializeComponent();
@@ -20,8 +21,76 @@ namespace TH02_MusicApp.UserControls.SongDetail
 
         public void loadComment(Comment comment)
         {
+            this.comment = comment;
             lb_author.Text = comment.author;
             lb_comment.Text = comment.content;
+            Image star_outline = Properties.Resources.star_outline;
+            Image star_fill = Properties.Resources.star_fill;
+            switch (comment.star) {
+                case 0:
+                    {
+                        pb_star_1.Image = star_outline;
+                        pb_star_2.Image = star_outline;
+                        pb_star_3.Image = star_outline;
+                        pb_star_4.Image = star_outline;
+                        pb_star_5.Image = star_outline;
+                    }
+                    break;
+                case 1:
+                    {
+                        pb_star_1.Image = star_fill;
+                        pb_star_2.Image = star_outline;
+                        pb_star_3.Image = star_outline;
+                        pb_star_4.Image = star_outline;
+                        pb_star_5.Image = star_outline;
+                    }
+                    break;
+                case 2:
+                    {
+                        pb_star_1.Image = star_fill;
+                        pb_star_2.Image = star_fill;
+                        pb_star_3.Image = star_outline;
+                        pb_star_4.Image = star_outline;
+                        pb_star_5.Image = star_outline;
+                    }
+                    break;
+                case 3:
+                    {
+                        pb_star_1.Image = star_fill;
+                        pb_star_2.Image = star_fill;    
+                        pb_star_3.Image = star_fill;
+                        pb_star_4.Image = star_outline;
+                        pb_star_5.Image = star_outline;
+                    }
+                    break;
+                case 4:
+                    {
+                        pb_star_1.Image = star_fill;
+                        pb_star_2.Image = star_fill;
+                        pb_star_3.Image = star_fill;
+                        pb_star_4.Image = star_fill;
+                        pb_star_5.Image = star_outline;
+                    }
+                    break;
+                case 5:
+                    {
+                        pb_star_1.Image = star_fill;
+                        pb_star_2.Image = star_fill;
+                        pb_star_3.Image = star_fill;
+                        pb_star_4.Image = star_fill;
+                        pb_star_5.Image = star_fill;
+                    }
+                    break;
+                default:
+                    {
+                        pb_star_1.Image = star_outline;
+                        pb_star_2.Image = star_outline;
+                        pb_star_3.Image = star_outline;
+                        pb_star_4.Image = star_outline;
+                        pb_star_5.Image = star_outline;
+                    }
+                    break;  
+            }
         }
     }
 }

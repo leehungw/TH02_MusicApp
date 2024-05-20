@@ -41,16 +41,26 @@
             this.pb_songImg = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ptbBack = new System.Windows.Forms.PictureBox();
+            this.pb_star_5 = new System.Windows.Forms.PictureBox();
+            this.pb_star_4 = new System.Windows.Forms.PictureBox();
+            this.pb_star_3 = new System.Windows.Forms.PictureBox();
+            this.pb_star_2 = new System.Windows.Forms.PictureBox();
+            this.pb_star_1 = new System.Windows.Forms.PictureBox();
             this.pn_commentPost.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_songImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_1)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_Name
             // 
             this.lb_Name.AutoSize = true;
             this.lb_Name.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Name.Location = new System.Drawing.Point(157, 55);
+            this.lb_Name.Location = new System.Drawing.Point(130, 55);
             this.lb_Name.Name = "lb_Name";
             this.lb_Name.Size = new System.Drawing.Size(111, 27);
             this.lb_Name.TabIndex = 1;
@@ -60,7 +70,7 @@
             // 
             this.lb_auther_singer.AutoSize = true;
             this.lb_auther_singer.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_auther_singer.Location = new System.Drawing.Point(158, 98);
+            this.lb_auther_singer.Location = new System.Drawing.Point(143, 99);
             this.lb_auther_singer.Name = "lb_auther_singer";
             this.lb_auther_singer.Size = new System.Drawing.Size(54, 22);
             this.lb_auther_singer.TabIndex = 2;
@@ -70,15 +80,21 @@
             // 
             this.fpn_comment.AutoScroll = true;
             this.fpn_comment.AutoSize = true;
-            this.fpn_comment.Location = new System.Drawing.Point(0, 233);
-            this.fpn_comment.MaximumSize = new System.Drawing.Size(450, 170);
+            this.fpn_comment.BackColor = System.Drawing.Color.Goldenrod;
+            this.fpn_comment.Location = new System.Drawing.Point(0, 183);
+            this.fpn_comment.MaximumSize = new System.Drawing.Size(450, 220);
             this.fpn_comment.Name = "fpn_comment";
-            this.fpn_comment.Size = new System.Drawing.Size(450, 170);
+            this.fpn_comment.Size = new System.Drawing.Size(450, 220);
             this.fpn_comment.TabIndex = 3;
             // 
             // pn_commentPost
             // 
             this.pn_commentPost.Controls.Add(this.btn_comment);
+            this.pn_commentPost.Controls.Add(this.pb_star_5);
+            this.pn_commentPost.Controls.Add(this.pb_star_4);
+            this.pn_commentPost.Controls.Add(this.pb_star_3);
+            this.pn_commentPost.Controls.Add(this.pb_star_2);
+            this.pn_commentPost.Controls.Add(this.pb_star_1);
             this.pn_commentPost.Controls.Add(this.label2);
             this.pn_commentPost.Controls.Add(this.label1);
             this.pn_commentPost.Controls.Add(this.tb_comment);
@@ -91,12 +107,13 @@
             // 
             // btn_comment
             // 
-            this.btn_comment.Location = new System.Drawing.Point(344, 39);
+            this.btn_comment.BackColor = System.Drawing.Color.YellowGreen;
+            this.btn_comment.Location = new System.Drawing.Point(344, 3);
             this.btn_comment.Name = "btn_comment";
             this.btn_comment.Size = new System.Drawing.Size(93, 23);
             this.btn_comment.TabIndex = 2;
             this.btn_comment.Text = "Comment";
-            this.btn_comment.UseVisualStyleBackColor = true;
+            this.btn_comment.UseVisualStyleBackColor = false;
             this.btn_comment.Click += new System.EventHandler(this.btn_comment_Click);
             // 
             // label2
@@ -121,6 +138,7 @@
             // 
             // tb_comment
             // 
+            this.tb_comment.BackColor = System.Drawing.Color.Khaki;
             this.tb_comment.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_comment.Location = new System.Drawing.Point(17, 72);
             this.tb_comment.Multiline = true;
@@ -130,17 +148,18 @@
             // 
             // tb_author
             // 
+            this.tb_author.BackColor = System.Drawing.Color.Khaki;
             this.tb_author.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_author.Location = new System.Drawing.Point(80, 39);
             this.tb_author.Name = "tb_author";
-            this.tb_author.Size = new System.Drawing.Size(188, 26);
+            this.tb_author.Size = new System.Drawing.Size(159, 26);
             this.tb_author.TabIndex = 0;
             // 
             // pb_songImg
             // 
             this.pb_songImg.Location = new System.Drawing.Point(17, 55);
             this.pb_songImg.Name = "pb_songImg";
-            this.pb_songImg.Size = new System.Drawing.Size(134, 131);
+            this.pb_songImg.Size = new System.Drawing.Size(102, 89);
             this.pb_songImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_songImg.TabIndex = 0;
             this.pb_songImg.TabStop = false;
@@ -149,7 +168,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 199);
+            this.label3.Location = new System.Drawing.Point(13, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(106, 22);
             this.label3.TabIndex = 1;
@@ -166,10 +185,66 @@
             this.ptbBack.TabStop = false;
             this.ptbBack.Click += new System.EventHandler(this.ptbBack_Click);
             // 
+            // pb_star_5
+            // 
+            this.pb_star_5.Image = ((System.Drawing.Image)(resources.GetObject("pb_star_5.Image")));
+            this.pb_star_5.Location = new System.Drawing.Point(407, 32);
+            this.pb_star_5.Name = "pb_star_5";
+            this.pb_star_5.Size = new System.Drawing.Size(30, 30);
+            this.pb_star_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_star_5.TabIndex = 3;
+            this.pb_star_5.TabStop = false;
+            this.pb_star_5.Click += new System.EventHandler(this.pb_star_5_Click);
+            // 
+            // pb_star_4
+            // 
+            this.pb_star_4.Image = ((System.Drawing.Image)(resources.GetObject("pb_star_4.Image")));
+            this.pb_star_4.Location = new System.Drawing.Point(371, 32);
+            this.pb_star_4.Name = "pb_star_4";
+            this.pb_star_4.Size = new System.Drawing.Size(30, 30);
+            this.pb_star_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_star_4.TabIndex = 4;
+            this.pb_star_4.TabStop = false;
+            this.pb_star_4.Click += new System.EventHandler(this.pb_star_4_Click);
+            // 
+            // pb_star_3
+            // 
+            this.pb_star_3.Image = ((System.Drawing.Image)(resources.GetObject("pb_star_3.Image")));
+            this.pb_star_3.Location = new System.Drawing.Point(335, 32);
+            this.pb_star_3.Name = "pb_star_3";
+            this.pb_star_3.Size = new System.Drawing.Size(30, 30);
+            this.pb_star_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_star_3.TabIndex = 5;
+            this.pb_star_3.TabStop = false;
+            this.pb_star_3.Click += new System.EventHandler(this.pb_star_3_Click);
+            // 
+            // pb_star_2
+            // 
+            this.pb_star_2.Image = ((System.Drawing.Image)(resources.GetObject("pb_star_2.Image")));
+            this.pb_star_2.Location = new System.Drawing.Point(299, 32);
+            this.pb_star_2.Name = "pb_star_2";
+            this.pb_star_2.Size = new System.Drawing.Size(30, 30);
+            this.pb_star_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_star_2.TabIndex = 6;
+            this.pb_star_2.TabStop = false;
+            this.pb_star_2.Click += new System.EventHandler(this.pb_star_2_Click);
+            // 
+            // pb_star_1
+            // 
+            this.pb_star_1.Image = ((System.Drawing.Image)(resources.GetObject("pb_star_1.Image")));
+            this.pb_star_1.Location = new System.Drawing.Point(263, 32);
+            this.pb_star_1.Name = "pb_star_1";
+            this.pb_star_1.Size = new System.Drawing.Size(30, 30);
+            this.pb_star_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_star_1.TabIndex = 7;
+            this.pb_star_1.TabStop = false;
+            this.pb_star_1.Click += new System.EventHandler(this.pb_star_1_Click);
+            // 
             // SongDetailUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LemonChiffon;
             this.Controls.Add(this.ptbBack);
             this.Controls.Add(this.lb_auther_singer);
             this.Controls.Add(this.fpn_comment);
@@ -184,6 +259,11 @@
             this.pn_commentPost.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_songImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbBack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_star_1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,5 +283,10 @@
         private System.Windows.Forms.Button btn_comment;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox ptbBack;
+        private System.Windows.Forms.PictureBox pb_star_5;
+        private System.Windows.Forms.PictureBox pb_star_4;
+        private System.Windows.Forms.PictureBox pb_star_3;
+        private System.Windows.Forms.PictureBox pb_star_2;
+        private System.Windows.Forms.PictureBox pb_star_1;
     }
 }

@@ -94,6 +94,7 @@
     <Compile Include="Repository\CommentRepo.cs" />
     <Compile Include="Repository\PlaylistRepo.cs" />
     <Compile Include="Repository\SongRepo.cs" />
+    <Compile Include="Repository\StringManager.cs" />
     <Compile Include="Shared_Preferences\DataStore.cs" />
     <Compile Include="Shared_Preferences\MusicPlayerManager.cs" />
     <Compile Include="UserControls\HomePage\HomePageUC.cs">
@@ -233,6 +234,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\close_icon.png" />
+    <None Include="assets\star_fill.png" />
+    <None Include="assets\star_outline.png" />
     <None Include="assets\is_playing_icon.png" />
     <None Include="assets\play_icon.png" />
     <None Include="assets\heart_outline.png" />

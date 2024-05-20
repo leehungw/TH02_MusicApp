@@ -16,10 +16,15 @@ namespace TH02_MusicApp.UserControls.PlaylistPage
 {
     public partial class PlaylistUC : UserControl
     {
+        Guid current_playlist;
         public PlaylistUC()
         {
             InitializeComponent();
             panelPlaylistName.Visible = false;
+            flowLayoutPanel1.AutoScroll = false;
+            flowLayoutPanel1.HorizontalScroll.Maximum = 0;
+            flowLayoutPanel1.VerticalScroll.Visible = false;
+            flowLayoutPanel1.AutoScroll = true;
         }
 
         private void ptbAdd_Click(object sender, EventArgs e)
@@ -56,6 +61,7 @@ namespace TH02_MusicApp.UserControls.PlaylistPage
                 panelPlaylistName.Visible = true;
                 labelPlaylistName.Text = playlistControl.name;
                 panelAddPlaylist.Visible = false;
+                current_playlist = playlistControl.id;
                 DisplaySongsInPlaylist(playlistControl.id);
             }
         }
@@ -67,14 +73,40 @@ namespace TH02_MusicApp.UserControls.PlaylistPage
             foreach (string songId in playlist.SongIds)
             {
                 Song song = DataStore.GetSongById(songId);
-                MusicInfoItem songControl = new MusicInfoItem();
-                songControl.SetMusicInfo(song, false, true, true, true, true);
-                songControl.PlayButtonClick += MusicBlock_PlayButtonClick;
-                flowLayoutPanel1.Controls.Add(songControl);
+                MusicInfoItem musicInfoItem = new MusicInfoItem();
+                musicInfoItem.SetMusicInfo(song, false, true, true, true, true);
+                musicInfoItem.PlayButtonClick += MusicBlock_PlayButtonClick;
+                musicInfoItem.MusicItemClick += MusicItemClick;
+                musicInfoItem.DeleteBtn_Click += DeleteBtn_Click;
+
+                flowLayoutPanel1.Controls.Add(musicInfoItem);
 
                 if (song.FileUrl == MusicPlayerManager.Instance._currentSongPath)
-                    MusicPlayerManager.Instance._lastPlayedMusic = songControl;
+                {
+                    MusicPlayerManager.Instance._lastPlayedMusic = musicInfoItem;
+                    musicInfoItem.btn_play.BackgroundImage = Properties.Resources.is_playing_icon;
+                }
             }
+        }
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete this song from playlist?", "Delete Song", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.No)
+                return;
+            DataStore.DeleteSongFromPlaylist(current_playlist, (sender as MusicInfoItem)._song.Id);
+            try
+            {
+                if (sender is MusicInfoItem musicInfoItem)
+                {
+                    flowLayoutPanel1.Controls.Remove(musicInfoItem);
+                }
+            }catch (Exception ex) { MessageBox.Show(ex.Message); }
+
+        }
+        public event EventHandler MusicItem_Click;
+        public void MusicItemClick(object sender, EventArgs e)
+        {
+            MusicItem_Click(sender, e);
         }
 
         public void MusicBlock_PlayButtonClick(object sender, EventArgs e)

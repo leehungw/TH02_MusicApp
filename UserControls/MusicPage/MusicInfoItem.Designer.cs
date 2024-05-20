@@ -74,10 +74,10 @@
             // 
             // btn_addToPlaylist
             // 
-            this.btn_addToPlaylist.BackColor = System.Drawing.Color.Transparent;
+            this.btn_addToPlaylist.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btn_addToPlaylist.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_addToPlaylist.BackgroundImage")));
             this.btn_addToPlaylist.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_addToPlaylist.Location = new System.Drawing.Point(377, 64);
+            this.btn_addToPlaylist.Location = new System.Drawing.Point(264, 69);
             this.btn_addToPlaylist.Name = "btn_addToPlaylist";
             this.btn_addToPlaylist.Size = new System.Drawing.Size(35, 35);
             this.btn_addToPlaylist.TabIndex = 5;
@@ -86,10 +86,9 @@
             // 
             // btn_love
             // 
-            this.btn_love.BackColor = System.Drawing.Color.Transparent;
-            this.btn_love.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_love.BackgroundImage")));
+            this.btn_love.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btn_love.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_love.Location = new System.Drawing.Point(336, 64);
+            this.btn_love.Location = new System.Drawing.Point(305, 69);
             this.btn_love.Name = "btn_love";
             this.btn_love.Size = new System.Drawing.Size(35, 35);
             this.btn_love.TabIndex = 5;
@@ -98,10 +97,10 @@
             // 
             // btn_play
             // 
-            this.btn_play.BackColor = System.Drawing.Color.Transparent;
+            this.btn_play.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btn_play.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_play.BackgroundImage")));
             this.btn_play.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_play.Location = new System.Drawing.Point(295, 64);
+            this.btn_play.Location = new System.Drawing.Point(346, 69);
             this.btn_play.Name = "btn_play";
             this.btn_play.Size = new System.Drawing.Size(35, 35);
             this.btn_play.TabIndex = 5;
@@ -110,18 +109,19 @@
             // 
             // btn_download
             // 
-            this.btn_download.BackColor = System.Drawing.Color.Transparent;
+            this.btn_download.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btn_download.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_download.BackgroundImage")));
             this.btn_download.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_download.Location = new System.Drawing.Point(254, 64);
+            this.btn_download.Location = new System.Drawing.Point(387, 69);
             this.btn_download.Name = "btn_download";
             this.btn_download.Size = new System.Drawing.Size(35, 35);
             this.btn_download.TabIndex = 5;
             this.btn_download.UseVisualStyleBackColor = false;
+            this.btn_download.Click += new System.EventHandler(this.btn_download_Click);
             // 
             // btn_delete
             // 
-            this.btn_delete.BackColor = System.Drawing.Color.Transparent;
+            this.btn_delete.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btn_delete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_delete.BackgroundImage")));
             this.btn_delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_delete.Location = new System.Drawing.Point(377, 3);
@@ -129,12 +129,13 @@
             this.btn_delete.Size = new System.Drawing.Size(35, 35);
             this.btn_delete.TabIndex = 5;
             this.btn_delete.UseVisualStyleBackColor = false;
-            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
+            this.btn_delete.Click += new System.EventHandler(this.btn_Delete_Click);
             // 
             // MusicInfoItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSalmon;
             this.Controls.Add(this.btn_download);
             this.Controls.Add(this.btn_play);
             this.Controls.Add(this.btn_love);
@@ -158,7 +159,7 @@
         private System.Windows.Forms.Label lb_Name;
         private System.Windows.Forms.Button btn_addToPlaylist;
         private System.Windows.Forms.Button btn_love;
-        private System.Windows.Forms.Button btn_play;
+        public System.Windows.Forms.Button btn_play;
         private System.Windows.Forms.Button btn_download;
         private System.Windows.Forms.Button btn_delete;
     }

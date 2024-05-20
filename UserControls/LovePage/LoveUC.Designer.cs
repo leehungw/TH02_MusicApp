@@ -33,6 +33,7 @@
             // 
             // fpn_loveSongs
             // 
+            this.fpn_loveSongs.AutoScroll = true;
             this.fpn_loveSongs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fpn_loveSongs.Location = new System.Drawing.Point(0, 0);
             this.fpn_loveSongs.Name = "fpn_loveSongs";
@@ -43,6 +44,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCoral;
             this.Controls.Add(this.fpn_loveSongs);
             this.Name = "LoveUC";
             this.Size = new System.Drawing.Size(450, 536);

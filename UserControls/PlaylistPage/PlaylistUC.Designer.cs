@@ -44,6 +44,8 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 136);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -53,7 +55,7 @@
             // 
             // panelAddPlaylist
             // 
-            this.panelAddPlaylist.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panelAddPlaylist.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panelAddPlaylist.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelAddPlaylist.Controls.Add(this.label1);
             this.panelAddPlaylist.Controls.Add(this.ptbAdd);
@@ -75,6 +77,7 @@
             // 
             // ptbAdd
             // 
+            this.ptbAdd.BackColor = System.Drawing.Color.Pink;
             this.ptbAdd.Image = ((System.Drawing.Image)(resources.GetObject("ptbAdd.Image")));
             this.ptbAdd.Location = new System.Drawing.Point(18, 14);
             this.ptbAdd.Name = "ptbAdd";
@@ -86,7 +89,7 @@
             // 
             // panelPlaylistName
             // 
-            this.panelPlaylistName.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panelPlaylistName.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panelPlaylistName.Controls.Add(this.labelPlaylistName);
             this.panelPlaylistName.Controls.Add(this.ptbBack);
             this.panelPlaylistName.Dock = System.Windows.Forms.DockStyle.Top;
@@ -106,6 +109,7 @@
             // 
             // ptbBack
             // 
+            this.ptbBack.BackColor = System.Drawing.Color.Coral;
             this.ptbBack.Image = ((System.Drawing.Image)(resources.GetObject("ptbBack.Image")));
             this.ptbBack.Location = new System.Drawing.Point(18, 15);
             this.ptbBack.Name = "ptbBack";
